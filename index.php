@@ -1,6 +1,6 @@
 <?php 
 try{
-	if(isset($_GET['url'])&&$_GET['url']=='mail/contact_me.php'){
+	if(isset($_GET['url'])&&$_GET['url']=='contact_me.php'){
 		// echo "1";
 		require 'mail/contact_me.php';
 	}
