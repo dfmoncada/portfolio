@@ -65,7 +65,7 @@
         margin-top: 12px;
       }
       .fa-inverse{
-        margin-top:10px;
+        margin-top:0;
       }
     }
     &.timeline-inverted > .timeline-panel {
@@ -130,6 +130,9 @@
           line-height: 18px;
           margin-top: 16px;
         }
+        .fa-inverse{
+          margin-top:10px;
+        }
       }
       &.timeline-inverted > .timeline-panel {
         float: right;
@@ -141,9 +144,6 @@
 }
 @media(min-width:992px) {
   .timeline {
-    .fa{
-      font-size: 70px;
-    }
     > li {
       min-height: 150px;
       .timeline-panel {
@@ -158,6 +158,10 @@
           line-height: 26px;
           margin-top: 30px;
         }
+        .fa-inverse{
+          font-size: 70px;
+          margin-top: 15px;
+        }
       }
       &.timeline-inverted > .timeline-panel {
         padding: 0 20px 20px;
@@ -166,6 +170,9 @@
   }
 }
 @media(min-width:1200px) {
+  fa{
+    margin-top: 30px !important;
+  }
   .timeline {
     > li {
       min-height: 170px;
@@ -178,6 +185,9 @@
         margin-left: -85px;
         h4 {
           margin-top: 40px;
+        }
+        .fa-inverse{
+          margin-top: 25px;
         }
       }
       &.timeline-inverted > .timeline-panel {

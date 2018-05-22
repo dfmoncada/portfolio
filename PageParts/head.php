@@ -7,7 +7,7 @@
     <meta name="Description" content="Author: Diego Moncada, 
     Content: Diego Moncada's Portfolio">
     <meta charset="utf-8">
-    <title>Diego's Lair</title>
+    <title>DM's Site</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">

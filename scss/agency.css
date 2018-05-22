@@ -392,7 +392,7 @@ header.masthead {
         line-height: 14px;
         margin-top: 12px; }
       .timeline > li .timeline-image .fa-inverse {
-        margin-top: 10px; }
+        margin-top: 0; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 20px 0 100px;
@@ -438,13 +438,13 @@ header.masthead {
         font-size: 13px;
         line-height: 18px;
         margin-top: 16px; }
+      .timeline > li .timeline-image .fa-inverse {
+        margin-top: 10px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 30px 20px 20px;
       text-align: left; } }
 @media (min-width: 992px) {
-  .timeline .fa {
-    font-size: 70px; }
   .timeline > li {
     min-height: 150px; }
     .timeline > li .timeline-panel {
@@ -457,9 +457,15 @@ header.masthead {
         font-size: 18px;
         line-height: 26px;
         margin-top: 30px; }
+      .timeline > li .timeline-image .fa-inverse {
+        font-size: 70px;
+        margin-top: 15px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px; } }
 @media (min-width: 1200px) {
+  fa {
+    margin-top: 30px !important; }
+
   .timeline > li {
     min-height: 170px; }
     .timeline > li .timeline-panel {
@@ -470,6 +476,8 @@ header.masthead {
       margin-left: -85px; }
       .timeline > li .timeline-image h4 {
         margin-top: 40px; }
+      .timeline > li .timeline-image .fa-inverse {
+        margin-top: 25px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 section#contact {

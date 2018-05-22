@@ -1,7 +1,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">DM Site</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">DM's Site</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -32,7 +32,7 @@
           <div class="col-md-6 col-sm-12">
             <img class="portrait" src="img/dm_portrait2.png" alt="Diegos Picture"/>
           </div>
-          <div class="intro-text col-sm-6 col-sm-12">
+          <div class="intro-text col-md-6 col-sm-12">
             <div class="intro-lead-in">Welcome to my site!</div>
             <div class="intro-heading text-uppercase">Where ideas get built and problems get solved.</div>
           </div>

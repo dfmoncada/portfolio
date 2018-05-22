@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4419d37f-e31b-41bb-8bad-1175d1b11f72" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageParts/background.php" beforeDir="false" afterPath="$PROJECT_DIR$/PageParts/background.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageParts/banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/PageParts/banner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageParts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PageParts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageParts/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/PageParts/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageParts/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/PageParts/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_masthead.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_portfolio.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_timeline.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/agency.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/agency.css.map" afterDir="false" />
@@ -21,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
@@ -48,16 +44,43 @@
         <entry file="file://$PROJECT_DIR$/PageParts/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="banner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageParts/banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            <state relative-caret-position="429">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageParts/background.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_timeline.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/_timeline.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageParts/head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -82,6 +105,7 @@
       <find>z-inde</find>
       <find>z-ind</find>
       <find>img-fluid</find>
+      <find>10px</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -99,15 +123,15 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scss/_navbar.scss" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/PageParts/head.php" />
         <option value="$PROJECT_DIR$/PageParts/contactme.php" />
         <option value="$PROJECT_DIR$/PageParts/portfolio.php" />
         <option value="$PROJECT_DIR$/PageParts/footer.php" />
         <option value="$PROJECT_DIR$/PageParts/background.php" />
-        <option value="$PROJECT_DIR$/scss/_timeline.scss" />
         <option value="$PROJECT_DIR$/scss/_portfolio.scss" />
         <option value="$PROJECT_DIR$/scss/_masthead.scss" />
+        <option value="$PROJECT_DIR$/PageParts/head.php" />
         <option value="$PROJECT_DIR$/PageParts/banner.php" />
+        <option value="$PROJECT_DIR$/scss/_timeline.scss" />
       </list>
     </option>
   </component>
@@ -147,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,37 +252,38 @@
       <option name="presentableId" value="Default" />
       <updated>1526006877719</updated>
       <workItem from="1526006888033" duration="6791000" />
-      <workItem from="1526916334680" duration="16077000" />
+      <workItem from="1526916334680" duration="16206000" />
+      <workItem from="1526988093605" duration="652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22868000" />
+    <option name="totallyTimeSpent" value="23649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="35" width="1260" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32928678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +293,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PageParts/portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_masthead.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageParts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageParts/banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -288,9 +341,6 @@
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/agency.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -318,24 +368,12 @@
         <state relative-caret-position="-61" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_services.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/agency.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="412" column="48" lean-forward="true" selection-start-line="412" selection-start-column="48" selection-end-line="412" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -358,12 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageParts/modals.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/background/puc.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PageParts/aboutme.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -378,31 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageParts/background.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageParts/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="8" selection-start-line="16" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_timeline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -420,10 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_masthead.scss">
+    <entry file="file://$PROJECT_DIR$/PageParts/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -434,17 +445,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageParts/footer.php">
+    <entry file="file://$PROJECT_DIR$/PageParts/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_masthead.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PageParts/banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        <state relative-caret-position="429">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageParts/background.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_timeline.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
         </state>
       </provider>
     </entry>
