@@ -29,10 +29,10 @@
     <header class="masthead bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-md-6 col-sm-12">
             <img class="portrait" src="img/dm_portrait2.png" alt="Diegos Picture"/>
           </div>
-          <div class="intro-text col-sm-6">
+          <div class="intro-text col-sm-6 col-sm-12">
             <div class="intro-lead-in">Welcome to my site!</div>
             <div class="intro-heading text-uppercase">Where ideas get built and problems get solved.</div>
           </div>

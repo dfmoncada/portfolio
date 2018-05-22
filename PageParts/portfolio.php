@@ -9,22 +9,7 @@
           </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <div class="image-container">
-                        <i class="fas fa-screwdriver fa-bf-mine" aria-hidden="true"></i>
-                    </div>
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Controller</h4>
-                    <p class="text-muted">Under construction in Django + React</p>
-                </div>
-            </div>
+
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -69,6 +54,22 @@
               <p class="text-muted">Javascript - JQuery Front-end</p>
             </div>
           </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <i class="fas fa-screwdriver fa-bf-mine" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Controller</h4>
+                    <p class="text-muted">Under construction in Django + React</p>
+                </div>
+            </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">

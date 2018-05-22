@@ -126,14 +126,12 @@ img::-moz-selection {
         padding: 12px 0; } }
 header.masthead {
   text-align: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
+    text-align: center;
     padding-top: 150px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
@@ -150,11 +148,33 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   header.masthead .portrait {
     margin-top: 150px;
-    height: 550px; }
+    width: 50%;
+    height: auto; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+  header.masthead .portrait {
+    width: 60%; }
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 300px !important;
+    padding-bottom: 200px; }
+    header.masthead .intro-text .intro-lead-in {
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header.masthead .intro-text .intro-heading {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 45px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+@media (min-width: 768px) {
+  header.masthead .portrait {
+    margin-top: 150px;
+    width: 50%;
+    height: auto; }
+  header.masthead .intro-text {
+    padding-top: 150px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
@@ -186,14 +206,14 @@ header.masthead {
     bottom: 0;
     right: 0; }
   #portfolio .portfolio-item .fa-briefcase {
-    font-size: calc(5vw + 70px);
-    margin-top: calc(-40px + 6vw); }
+    font-size: 160px;
+    margin-top: 40px; }
   #portfolio .portfolio-item .fa-android {
-    font-size: calc(5vw + 100px);
-    margin-top: calc(-35px + 4.5vw); }
+    font-size: 160px;
+    margin-top: 40px; }
   #portfolio .portfolio-item .fa-screwdriver {
-    font-size: calc(3vw + 100px);
-    margin-top: calc(-35px + 4.5vw); }
+    font-size: calc(0vw + 160px);
+    margin-top: calc(40px + 0vw); }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
@@ -246,6 +266,18 @@ header.masthead {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
+@media (min-width: 575px) {
+  .fa-briefcase {
+    font-size: calc(5vw + 70px) !important;
+    margin-top: calc(-40px + 6vw) !important; }
+
+  .fa-android {
+    font-size: calc(5vw + 100px) !important;
+    margin-top: calc(-35px + 4.5vw) !important; }
+
+  .fa-screwdriver {
+    font-size: calc(3vw + 100px) !important;
+    margin-top: calc(-35px + 4.5vw) !important; } }
 .portfolio-modal {
   padding-right: 0px !important; }
   .portfolio-modal .modal-dialog {
@@ -316,6 +348,8 @@ header.masthead {
     margin-left: -1.5px;
     content: '';
     background-color: #e9ecef; }
+  .timeline .fa {
+    font-size: 40px; }
   .timeline > li {
     position: relative;
     min-height: 50px;
@@ -409,6 +443,8 @@ header.masthead {
       padding: 0 30px 20px 20px;
       text-align: left; } }
 @media (min-width: 992px) {
+  .timeline .fa {
+    font-size: 70px; }
   .timeline > li {
     min-height: 150px; }
     .timeline > li .timeline-panel {

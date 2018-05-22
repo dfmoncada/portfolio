@@ -14,10 +14,7 @@
               <li>
                 <div class="timeline-image">
 <!--                  <img class="rounded-circle img-fluid" src="img/background/puc2.png" alt="Pontificia Universidad Catolica de Chile logo">-->
-                    <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-                    </span>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -32,10 +29,7 @@
             <li class="timeline-inverted">
                 <div class="timeline-image">
 <!--                    <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">-->
-                    <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                    </span>
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -50,10 +44,7 @@
               <li class="timeline">
                 <div class="timeline-image">
 <!--                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">-->
-                    <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-university fa-stack-1x fa-inverse"></i>
-                    </span>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -68,10 +59,7 @@
               <li class="timeline-inverted">
                 <div class="timeline-image">
 <!--                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">-->
-                    <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
-                    </span>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">

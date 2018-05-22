@@ -20,16 +20,16 @@
       right: 0;
     }
     .fa-briefcase{
-      font-size:calc(5vw + 70px);
-      margin-top:calc(-40px + 6vw);
+      font-size: 160px;
+      margin-top: 40px;
     }
     .fa-android{
-      font-size:calc(5vw + 100px);
-      margin-top:calc(-35px + 4.5vw);
+      font-size: 160px;
+      margin-top: 40px;
     }
     .fa-screwdriver{
-      font-size:calc(3vw + 100px);
-      margin-top:calc(-35px + 4.5vw);
+      font-size:calc(0vw + 160px);
+      margin-top:calc(40px + 0vw);
     }
     .portfolio-link {
       position: relative;
@@ -96,6 +96,20 @@
     .portfolio-item {
       margin: 0 0 30px;
     }
+  }
+}
+@media(min-width: 575px){
+  .fa-briefcase{
+    font-size:calc(5vw + 70px) !important;
+    margin-top:calc(-40px + 6vw) !important;
+  }
+  .fa-android{
+    font-size:calc(5vw + 100px) !important;
+    margin-top:calc(-35px + 4.5vw) !important;
+  }
+  .fa-screwdriver{
+    font-size:calc(3vw + 100px) !important;
+    margin-top:calc(-35px + 4.5vw) !important;
   }
 }
 

@@ -13,6 +13,9 @@
     content: '';
     background-color: $gray-200;
   }
+  .fa{
+    font-size: 40px;
+  }
   > li {
     position: relative;
     min-height: 50px;
@@ -107,6 +110,7 @@
     &:before {
       left: 50%;
     }
+
     > li {
       min-height: 100px;
       margin-bottom: 100px;
@@ -137,6 +141,9 @@
 }
 @media(min-width:992px) {
   .timeline {
+    .fa{
+      font-size: 70px;
+    }
     > li {
       min-height: 150px;
       .timeline-panel {
