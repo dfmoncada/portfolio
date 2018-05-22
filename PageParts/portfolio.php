@@ -23,7 +23,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>Netboost</h4>
-              <p class="text-muted">Make Projects Meaningful in PHP</p>
+              <p class="text-muted">PHP - Custom Framework</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
