@@ -30,7 +30,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-12">
-            <img class="portrait" src="img/dm_portrait2.png" alt="Diegos Picture"/>
+            <img class="portrait" src="img/dm_portrait2-min.png" alt="Diegos Picture"/>
           </div>
           <div class="intro-text col-md-6 col-sm-12">
             <div class="intro-lead-in">Welcome to my site!</div>

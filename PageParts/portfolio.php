@@ -18,7 +18,7 @@
                 </div>
               </div>
               <div>
-                <img class="img-fluid" src="img/portfolio/netboost.png" alt="netboost page screenshot">
+                <img class="img-fluid" src="img/portfolio/netboost-min.png" alt="netboost page screenshot">
               </div>
             </a>
             <div class="portfolio-caption">
@@ -33,7 +33,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/galaxycollonies.png" alt="gallaxy collonies screenshot">
+              <img class="img-fluid" src="img/portfolio/galaxycollonies-min.png" alt="gallaxy collonies screenshot">
             </a>
             <div class="portfolio-caption">
               <h4>Space Colonies</h4>
@@ -47,7 +47,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/compradecafe.png" alt="">
+              <img class="img-fluid" src="img/portfolio/compradecafe-min.png" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Comrade Cafe</h4>
