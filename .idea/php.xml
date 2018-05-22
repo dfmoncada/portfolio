@@ -3,6 +3,14 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="/usr/local/Cellar/php/7.2.5/share/php/pear" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/css" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/js" />
+      <path value="$PROJECT_DIR$/vendor/font-awesome/css" />
+      <path value="$PROJECT_DIR$/vendor/font-awesome/fonts" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/font-awesome/scss" />
+      <path value="$PROJECT_DIR$/vendor/font-awesome/less" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

@@ -1,6 +1,6 @@
  RewriteEngine On
 
 RewriteCond %{REQUEST_URI} !=/index.php
- RewriteCond %{REQUEST_URI} !\.(css|gif|ico|jpg|js|png|swf|txt)$
+ RewriteCond %{REQUEST_URI} !\.(css|gif|ico|jpg|js|png|swf|txt|svg)$
 
  RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

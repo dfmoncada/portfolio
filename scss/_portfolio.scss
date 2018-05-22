@@ -1,12 +1,41 @@
 // Styling for the portfolio section
 #portfolio {
+  .bg-primary-2 {
+    //background-color: $primary;
+  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    .image-container{
+      padding-top:75%;
+    }
+    .fa-bf-mine{
+
+      margin-bottom: 10px;
+      position: absolute;
+      z-index: -1;
+      top: 20px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+    .fa-briefcase{
+      font-size:calc(5vw + 70px);
+      margin-top:calc(-40px + 6vw);
+    }
+    .fa-android{
+      font-size:calc(5vw + 100px);
+      margin-top:calc(-35px + 4.5vw);
+    }
+    .fa-screwdriver{
+      font-size:calc(3vw + 100px);
+      margin-top:calc(-35px + 4.5vw);
+    }
     .portfolio-link {
       position: relative;
       display: block;
       max-width: 400px;
+      text-align: center;
       margin: 0 auto;
       cursor: pointer;
       .portfolio-hover {

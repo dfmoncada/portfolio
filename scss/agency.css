@@ -104,15 +104,19 @@ img::-moz-selection {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent; }
+    border: none; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
-    #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; }
+    #mainNav .navbar-nav .nav-item {
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      font-size: 1.1em; }
+      #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important; }
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
@@ -122,8 +126,6 @@ img::-moz-selection {
         padding: 12px 0; } }
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -141,11 +143,14 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 50px;
+      font-size: 20px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  header.masthead .portrait {
+    margin-top: 150px;
+    height: 550px; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -158,9 +163,9 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 75px;
+      font-size: 40px;
       font-weight: 700;
-      line-height: 75px;
+      line-height: 45px;
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 .service-heading {
@@ -170,10 +175,30 @@ header.masthead {
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
+  #portfolio .portfolio-item .image-container {
+    padding-top: 75%; }
+  #portfolio .portfolio-item .fa-bf-mine {
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  #portfolio .portfolio-item .fa-briefcase {
+    font-size: calc(5vw + 70px);
+    margin-top: calc(-40px + 6vw); }
+  #portfolio .portfolio-item .fa-android {
+    font-size: calc(5vw + 100px);
+    margin-top: calc(-35px + 4.5vw); }
+  #portfolio .portfolio-item .fa-screwdriver {
+    font-size: calc(3vw + 100px);
+    margin-top: calc(-35px + 4.5vw); }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
     max-width: 400px;
+    text-align: center;
     margin: 0 auto;
     cursor: pointer; }
     #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -332,6 +357,8 @@ header.masthead {
         font-size: 10px;
         line-height: 14px;
         margin-top: 12px; }
+      .timeline > li .timeline-image .fa-inverse {
+        margin-top: 10px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 20px 0 100px;
