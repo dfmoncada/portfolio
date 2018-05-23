@@ -24,6 +24,7 @@
                     <p>On this project, my role was to manage and lead the back end development. To start, I created a new and simple framework in order for our team to develop a solution on top of it. Also, I led the database design, development and deployment. Last but not least, I was in charge of deploying our solution, which was first done in heroku and was later on migrated to Digital Ocean.</p>
                   </div>
                   <ul class="list-inline">
+                      <li><a href="http://netboost.ca">Live Link</a></li>
                     <li>Date: February 2018 - April 2018</li>
                     <li>Client: Academic Purpose</li>
                   </ul>
@@ -64,6 +65,8 @@
                         <p>I was in charge of leading the bussiness logic of the front-end that was done in JavaScript. Also, I developed a random map generator that would initialize the initial state of the game, depending on the variables that were given.</p>
                     </div>
                     <ul class="list-inline">
+                        <li><a href="https://galaxy-control.herokuapp.com/">Live Link</a></li>
+                        <li><a href="https://github.com/jwong92/GGJ2018">Github Link</a></li>
                         <li>Date: January 2018</li>
                         <li>Client: Personal Purpose - Hackathon</li>
                     </ul>
@@ -105,6 +108,8 @@
                         <p>I was a crucial part on the organization of the team, developing many common areas like the home page, footer and header, between others. Also, I was in charge of creating the site map, which lets you see a preview of the site you are looking at, and the contest, which in our case was a tic tac toe (which can onlye be beaten in easy).</p>
                     </div>
                     <ul class="list-inline">
+                        <li><a href="http://comradecafe.tk">Live Link</a></li>
+                        <li><a href="https://github.com/dfmoncada/TeamJavascript">Github Link</a></li>
                         <li>Date: September 2017 - January 2018</li>
                         <li>Client: Academic Purpose</li>
                     </ul>
@@ -175,6 +180,10 @@
 <!--                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">-->
                     <h3>RecolectApp</h3>
                     <p>Simple app meant to have people hired to record information through their journey on the public transit. This application was built on native android with a local database on SQLite and comunicated with a ruby on rails server which gathered and stored all the information from different users.</p>
+                    <ul class="list-inline">
+                        <li><a href="https://github.com/ajvaleng/AppRecoleccion">Github Android App Link</a></li>
+                        <li><a href="https://github.com/ajvaleng/RecolectServer">Github Back-End Link</a></li>
+                    </ul>
                     <h3>Fantaxico</h3>
                     <p>I developed a feature to an existing app in which the two android cell phones could connect to have a voice conversation over Session Initiation Protocol (SIP).</p>
 
@@ -206,9 +215,9 @@
                   <h2 class="text-uppercase">Other Projects</h2>
                   <p class="item-intro text-muted">Other important projects I've had.</p>
                   <h3>ABC Costing</h3>
-                  <p>Elaborated ABC costing and implement it on vba and spreadsheets, for reportings to headquarters.</p>
+                  <p>Elaborated ABC costing and implemented it on vba and spreadsheets, for reportings to headquarters.</p>
                   <h3>Remuneration Model</h3>
-                  <p>Was a part of the team in charge of designing a new remuneration model for the company executives, to later implementation over vba and spreadsheets.</p>
+                  <p>Was a part of the team in charge of designing a new remuneration model for the company executives, which I implemented over vba and spreadsheets.</p>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
