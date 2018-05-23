@@ -37,7 +37,7 @@
                         <h4 class="subheading">Part Time Developer</h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">During the years of my Degree, I managed to get some part-time jobs from different projects. Some technologies used here were .NET, Javascript and Java for android.</p>
+                        <p class="text-muted">During the years of my Degree, I managed to get some part-time jobs from different projects. Some technologies used here were .NET, JavaScript and Java for android.</p>
                     </div>
                 </div>
             </li>
