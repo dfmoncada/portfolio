@@ -37,7 +37,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>Space Colonies</h4>
-              <p class="text-muted">Javascript Game - Game Jam </p>
+              <p class="text-muted">JavaScript Game - Game Jam </p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -51,7 +51,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>Comrade Cafe</h4>
-              <p class="text-muted">Javascript - JQuery Front-end</p>
+              <p class="text-muted">JavaScript - JQuery Front-end</p>
             </div>
           </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -66,7 +66,7 @@
                     </div>
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Controller</h4>
+                    <h4>Remote Controller</h4>
                     <p class="text-muted">Under construction in Django + React</p>
                 </div>
             </div>
